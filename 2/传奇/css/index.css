@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0; text-decoration:none; font-size:14px;}
+ul,li{ list-style:none;}
+a{ text-decoration:none;}
+.clear{ clear:both; width:100%; height:0;}
+#header{ background:url(../images/header_bg.png) repeat-x left bottom;}
+.header_in{ width:960px; height:137px; margin:0 auto;}
+.logo{width:274px; height:130px;background:url(../images/logo.jpg) no-repeat; float:left}
+.nav_top{ float:right}
+.nav_top li{ background:url(../images/topnav_bg_04.jpg) no-repeat; width:122px; height:32px; font-size:10px; font-family:"微软雅黑"; line-height:32px; padding-left:45px; float:right}
+.nav{ width:700px; height:100px; clear:right; margin:0 auto}
+.nav_in li{ float:left; list-style:none}
+.nav_in li a{ font-family:"微软雅黑"; font-size:16px; color:#e30024; display:block;/*转换成块元素*/ width:90px; height:59px; padding-top:45px; text-align:center; font-weight:bold; float:left}
+/*banner*/
+#bann{ height:451px; background:url(../images/header_bg.png) repeat-x left bottom; clear:both}
+#mainer{ clear:both; background:url(../images/header_bg.png) repeat-x left bottom}
+
+
+
+
+/*main*/
+
+
+
+
+
+
+
+
+

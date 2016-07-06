@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin:0; padding:0;text-decoration:none;}
+ul li{ list-style:none;}
+.header_inner,.banner_inner,.main_inner,.footer_inner {width:960px; margin:0 auto;}
+#header { background:url(../images/header_bg.png) repeat-x left bottom;}
+.header_inner { width:960px; height:137px;}
+.logo,.nav{ float:left;}
+.topnav li {list-style:none; float:right; width:122px;height:32px;background:url(../images/topnav_bg_04.jpg) no-repeat; margin-left:10px;}
+.topnav li a { font-family:"宋体"; font-size:12px; color:#010101; line-height:32px; padding-left:45px;}
+.wholenav { width:668px; height:100px; clear:right;}
+.wholenav li { list-style:none; float:left;}
+.wholenav li a { font-family:"微软雅黑"; font-size:16px; color:#e30024; display:block; width:104px; height:59px; padding-top:45px; text-align:center; font-weight:bold; float:left;}
+.wholenav li a:hover { background:url(../images/nav_hover_03.jpg) no-repeat left bottom;}
+
+#banner { height:451px; background:url(../images/header_bg.png) repeat-x left bottom; clear:both;}
+#main { clear:both; background:url(../images/header_bg.png) repeat-x left bottom;}
+.main_inner { width:960px; height:1062px; padding-top:50px; background:url(../images/main_bg_13.jpg) no-repeat left 50px;}
+.top_left,.top_right { float:left;}
+.top_left { width:600px;}
+.top_left ul { width:530px; height:50px; border-bottom:1px dashed #868686; padding-top:34px; padding-left:5px;}
+.top_left li { list-style:none; float:left;}
+.top_left li a { display:block; width:139px; height:49px; background:url(../images/home_nav_bg2.jpg) no-repeat; text-align:center; line-height:49px; font-family:"微软雅黑"; color:#ffffff; float:left;}
+.top_left li a:hover { background:url(../images/home_nav_bg.png) no-repeat;}
+.top_left li a:visital{background:url(../images/home_nav_bg.png) no-repeat;}
+#wenhua, #tuandui { height:300px; display:none;}
+.top_left p { font-family:"宋体"; font-size:14px; color:#3b3b3b; line-height:24px; width:550px; text-indent:26px;}
+.top_left .chuan { margin-top:24px;}
+.top_left p a { color:#db0020;}
+.top_right { width:350px; position:relative;}
+
+.top_right #hotpic{width:343px;height:116px;overflow:hidden;border-bottom:2px solid #F00;}
+.top_right #hotpic ul{ width:1029px;}
+.top_right #hotpic ul li {float:left;}
+.top_right #hotpic ul li img {display:block; width:343px; }
+.top_right #hotnav{ width:343px; height:20px; position:absolute; left:0px; top:182px;}
+.top_right #hotnav ul{ float:right;}
+.top_right #hotnav li{ float:left; width:20px; height:16px; text-align:center; line-height:16px; background:#333; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#FFF;cursor:pointer; }
+.top_right #hotnav li.navOn{ background:#F00;}
+
+.top_right you { margin-top:36px; padding-bottom:12px; }
+.top_right  a { font-family:"微软雅黑"; font-size:12px; color:#de0427;}
+.top_right .xinwen{ font-size:16px; color:#ffffff; display:block; width:121px; height:46px; background:url(../images/anli.png) no-repeat; float:left; margin-top:25px; text-align:center; line-height:46px;}
+.top_right .more { float:right; margin-top:65px;}
+.top_right .pic { border:1px solid #e2e2e2; background:#f8f8f8;position:relative; height:126px; margin-top:84px;}
+#tu2,#tu3,#tu4{ display:none;}
+.top_right .pic img {padding:3px;}
+.top_right .pic .xuhao { position:absolute; right:0; bottom:7px;}
+.top_right .xuhao li { list-style:none; background:#2e2a2b; float:left;}
+.top_right .xuhao li a { color:#ffffff;display:block; width:20px; height:16px; text-align:center; line-height:16px; float:left;}
+.top_right .xuhao li a:hover  { background:#d70630; }
+.top_right #news  { list-style:none; margin-top:30px; padding-left:10px; height:150px; overflow:hidden;}
+.top_right #news  li { background:url(../images/liststyle_03.jpg) no-repeat left center; padding-left:17px; height:30px; line-height:30px;}
+.top_right #news  li a { color:#5c5c5c; display:block; width:200px; height:30px; float:left;}
+.top_right #news li  span { font-family:"微软雅黑"; font-size:12px;color:#a8a6ab;display:block; float:right; width:72px; padding-right:5px;}
+.bottom { clear:both; position:relative;}
+.bottom p { width:880px; height:50px; margin-top:60px; padding-left:40px; border-bottom:1px dashed #8a8a8a;}
+.bottom p .exam { display:block; float:left; width:122px; height:50px; background:url(../images/anli.png) no-repeat left center; font-family:"微软雅黑";color:#ffffff; line-height:50px; text-align:center;}
+.bottom p .more { color:#e00024; font-size:12px; display:block; float:right; padding-right:5px; padding-top:25px;}
+
+.bottom .picture { padding-top:40px;width:960px; height:258px;overflow:hidden;}
+.bottom .picture ul{ padding-left:4px;}
+.bottom .picture li{ float:left; padding:0 18px; list-style:none;}
+.bottom .picture li img{ display:block; width:282px;}
+.bottom .gundong #goL{ position:absolute; left:-12px; top:220px;}
+.bottom .gundong #goR{ position:absolute; right:-10px; top:220px;}
+/*.bottom .picture a {display:block; float:left;}
+.bottom .picture a img { border:none;}
+.bottom .picture .zuo {  width:10px;margin-top:120px; margin-right:30px;}
+.bottom .picture .pic1 { margin-right:15px;}
+.bottom .picture .you {  width:10px;margin-top:120px; margin-left:28px;}*/
+.bottom .alink { clear:both;}
+.bottom .alink input { margin-left:80px; margin-top:24px;}
+
+
+#footer { clear:both;height:150px; background:url(../images/footer_bg_25.jpg) repeat-x; margin-top:7px;}
+.footer_inner { width:960px; margin:0 auto;}
+.footer_left { width:320px; float:left; padding-left:20px; padding-top:14px;}
+.footer_left img { margin-left:5px;}
+.footer_left P { font-family:"宋体"; font-size:12px; color:#a3a1a2; line-height:20px;}
+.footer_right { width:446px; float:right; padding-right:10px;padding-top:20px;}
+.footer_right li { list-style:none; float:left; height:50px; line-height:50px;}
+.footer_right li a { color:#aaa8a9;font-family:Arial, Helvetica, sans-serif; font-size:14px; margin-right:8px;}
+.footer_right li span { color:#77051f; }
+.footer_right P {font-family:"宋体";font-size:12px;color:#a3a1a2; line-height:20px; text-align:right;}
+.footer_right .copy { margin-top:15px;}
