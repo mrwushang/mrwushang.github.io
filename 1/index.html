@@ -9,17 +9,15 @@
 		height: 30px;
 		border: 1px;
 		background:red;}
-	div:hover
-{
-transition: width 2s, height 2s, transform 2s;
--moz-transition: width 2s, height 2s, -moz-transform 2s;
--webkit-transition: width 2s, height 2s, -webkit-transform 2s;
--o-transition: width 2s, height 2s,-o-transform 2s;
+	div:hover{transition:width 2s;
+-moz-transition:width 2s; /* Firefox 4 */
+-webkit-transition:width 2s; /* Safari and Chrome */
+-o-transition:width 2s; /* Opera */
 }
 
 
 </style>
 <div class="box"><div>
-	<div class="box">dddddddddddddddddddddddddddddddddddddddddddddddddd </div>
+	<div class="box">ddddddddddddd </div>
 </body>
 </html>
